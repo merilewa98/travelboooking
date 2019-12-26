@@ -1,0 +1,104 @@
+/*--------=hotel --------*/ 
+.deep-orange {
+	background: #ff5722; 
+}
+.deep-orange.lighten-1 {
+  background-color: #ff7043;
+}
+.orange {
+	color:  #fd7e14;
+}
+.card{
+background: var(--yellow);
+/*yellow*/
+}
+.travel-card {
+  border-radius:0px;
+  box-shadow:none;
+}
+.card-header {
+border-radius:0px !important;
+}
+.baner {
+  height:175px;
+  width:100%
+}
+.baner img {
+  border-radius:0px;
+  width:100%;
+  height:100%;
+}
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.travel-card p {
+  font-size:0.8rem;
+}
+.stops span {
+  font-size:0.8rem;
+}
+.stops p {
+	font-size: 14px;
+}
+.custom-package-flex {
+  display:flex;
+  justify-content:space-evenly;
+}
+
+@media (max-width:780px) {
+  .custom-package-flex {
+    padding-left:1.28rem;
+  }
+}
+
+.package-price  {
+  border-radius:50%;
+  padding:10px;
+  color:white;
+  margin-top: 120px;
+
+}
+.package-action {
+	color: #ff5722;
+}
+.img-flui {
+	height: 400px;
+}
+.btn {
+	padding: 10px 15px;
+	margin-top: 10px;
+	border: 2px solid #ff5722;
+	color: #fff;
+	background: #ff5722;
+   text-decoration: underline;
+}
+.btn:hover {
+	color: #fff;
+  text-decoration: underline;
+
+}
+.desc {
+	margin-left: 50px;
+}
+.desc p {
+	font-size: 15px;
+}
+.custom-label {
+  width:80px;
+  height:80px;
+/*   background:red; */
+  border-radius:50%;
+  right:-5px;
+  position:absolute;
+  top:-15px;
+  /*z-index: 2;*/
+}
+/*-----------x------------*/
+
+@media only screen and (max-width: 992px) {
+  .hide-on-med-and-down {
+    display: none !important;
+  }
+}
